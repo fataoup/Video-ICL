@@ -1,3 +1,4 @@
+
                             <tr>
                                 <td width="50%"> <span>
                                         <center><strong> Demonstration:  </strong></center>
@@ -10,22 +11,22 @@
 
                             </tr>
                             <tr>
-                                <td width="50%"> <video width="95%" controls> <source src="videos/class/demo-15.mp4" type="video/mp4"> </video> </td>
-                                <td width="50%"> <video width="95%" controls> <source src="videos/class/gene-15.mp4" type="video/mp4"> </video> </td>
+                                <td width="50%"> <img width="95%" src="Images/demo-page/class/demo-15.png"> </td>
+                                <td width="50%"> <img width="95%" src="Images/demo-page/class/gene-15.png"> </td>
                             </tr>
                             <tr>
                                 <td width="50%"> <span>
-                                        <center><strong> Demonstration:  </strong></center>
+                                        <center><strong> Demonstration: </strong></center>
                                     </span> </td>
-
+                            
                                 <td width="50%"> <span>
                                         <center><strong> Generated:
                                             </strong></center>
                                     </span> </td>
-
+                            
                             </tr>
                             <tr>
-                                <td width="50%"> <video width="95%" controls> <source src="videos/contrastive/demo-15.mp4" type="video/mp4"> </video> </td>
-                                <td width="50%"> <video width="95%" controls> <source src="videos/contrastive/gene-15.mp4" type="video/mp4"> </video> </td>
+                                <td width="50%"> <img width="95%" src="Images/demo-page/contrastive/contrastive-demo-15.png"> </td>
+                                <td width="50%"> <img width="95%" src="Images/demo-page/contrastive/contrastive-gene-15.png"> </td>
                             </tr>
 
