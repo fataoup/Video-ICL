@@ -728,23 +728,28 @@
                     the action signal condition is converted to video query condition for Vid-ICL to perform in-context generation, 
                     and produced future frames are used to generate action signals by inverse dynamics.
                     We see compared to the Svg baseline, the final state of Vid-ICL is closer to the GT goal, which demonstrate
-                    the efficacy of Vid-ICL in interactive tasks. </p>
+                    the efficacy of Vid-ICL in interactive tasks.</p>
+
+                    <p>[1] Tian S, Finn C, Wu J. A Control-Centric Benchmark for Video Prediction. </p>
 
                     <img class="mb-5" src="rebuttal/vp2.png">
                 </div>
                 <div class="col-12 text-center">
                     <table class="table is-striped is-hoverable is-fullwidth">
                         <p> We further show the generalization ability of Vid-ICL as a generative agent in <strong>Minecraft</strong><sup>[2]</sup> environment. 
-                            The working pipeline of Vid-ICL is similar to that in VP<sup>2</sup> benchmark.
-                            Conditioned on game scenes, Vid-ICL is also capable of generating coherent future frames and convert to actions.  </p>
+                            The working pipeline of Vid-ICL is similar to that in VP<sup>2</sup> benchmark. The first top left 4 frames is the demonstration, e.g. attacking sheep in the left video.
+                            Conditioned on the scenes, Vid-ICL is also capable of generating coherent future frames and convert to attacking sheep actions in different scenarios.  </p>
+
+                        <p>[2] <a href="https://github.com/minerllabs/minerl">https://github.com/minerllabs/minerl</a> </p>
+
                         <tbody>
                             <tr>
                                 <td width="50%"> <video width="95%" controls>
                                         <source src="rebuttal/attack_sheep.mp4" type="video/mp4">
                                     </video> </td>
-                                <!-- <td width="50%"> <video width="95%" controls>
-                                        <source src="rebuttal/chop_wood.mp4" type="video/mp4">
-                                    </video> </td> -->
+                                <td width="50%"> <video width="95%" controls>
+                                        <source src="rebuttal/chop_wood-2.mp4" type="video/mp4">
+                                    </video> </td>
                             </tr>
                         </tbody>
                     </table>
